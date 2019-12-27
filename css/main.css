@@ -1,0 +1,275 @@
+/*PROYECTO WEB*/
+
+.top{
+  background:black;
+  height: 70px;
+  position: sticky;top: 0;
+  z-index: 1000;
+  
+
+  
+  
+}
+.video{
+  /*position: relative;
+  top: -100px;*/
+  padding: 0%;
+  margin-top: -100px;
+  background: white;
+  
+}
+.navbar-nav{
+  
+  background: #000;
+  color: #ccc;
+  font-size: 15px;
+}
+
+.logos{
+  font-size: 20px;
+  padding: 10px;
+  
+  
+}
+
+
+.logos a {
+  color: #e6a709;
+}
+.logos a:hover{
+  color: white;
+}
+.logoP img {
+  width: 50%;
+  height: 50%;
+}
+
+.home-secciones{
+  position: relative;
+  
+}
+.no-padding{
+  padding: 0%;
+}
+
+.seccion-bg-documentales:hover{
+  background: url(../img/GUIDO.jpg) no-repeat center center; background-size: cover;
+  /*transform: scale(1.2);*/
+}
+.seccion-bg-largometrajes:hover{
+  background: url(../img/Mike-Amigorena-y-Roman-Almaraz-en-el-Samba-de-la-peatonal-de-Santa-Teresita-1.jpg) no-repeat center center; background-size: cover;
+  /*transform: scale(1.2);*/
+}
+.seccion-bg-cortometrajes:hover{
+  background: url(../img/madre.jpg) no-repeat center center; background-size: cover;
+  
+   /*transform: scale(1.2);*/
+}
+
+
+
+
+
+
+.home-seccion a{
+  text-decoration: none;
+  background:black;
+  display: block;
+  padding-top: 95px;
+  padding-bottom: 95px;
+  font-size: 3rem;
+  color: #999;
+  font-family: 'Anton', sans-serif;
+}
+  
+.home-banner:hover{
+    background: lightseagreen;
+}
+.home-banner{
+    background: #999;
+    font-family: 'Anton', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 3rem;
+    color: #000;
+}
+
+  .home-contacto{
+    background: #222;
+    color: white;
+  }
+  .contacto-texto{
+    padding-top: 20px;
+  }
+  .home-contacto-input{
+    position: relative;
+    border: 0;
+    width: 100%;
+    border-bottom: 1px solid grey;
+    margin-bottom: 20px;
+    background: #222;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .home-contacto-submit{
+    position: relative;
+    display: inline-block;
+    background: none;
+    border: none;
+    color:lightseagreen;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .logosfooter-1{
+    width: 200px;
+    height: 120px;
+    margin-top: 100px;
+    margin-left: 180px;
+    background: #222 !important;
+    
+  }
+  .logosfooter-2{
+    
+    width: 150px;
+    height: 120px;
+    margin-top: 110px;
+    margin-left: 230px;
+  }
+  
+
+  
+ 
+@media screen and (max-width: 900px){
+    .logos{
+      display: none;
+    }
+}
+ 
+@media screen and (max-width:1100px){
+   .logosfooter-1{
+    display: none;
+   }
+}
+   
+@media screen and (max-width:1100px){
+   .logosfooter-2{
+     display: none;
+   }
+}
+@media screen and (max-width:600px){
+   .video{
+     display: none;
+   }
+}
+ 
+   
+@media screen and (max-width:600px){
+   .navbar-brand{
+     display: none;
+
+    }
+  
+}
+@media screen and (max-width:1250px){#galeria{display:none;
+    } 
+} 
+/*SM-CINES*/
+
+.foto-1{
+  margin-top: 80px;
+ 
+}
+.foto-2{
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.home-texto{
+  color: white;
+  font-size: medium;
+  
+
+}
+
+.iconos{
+  position: relative;
+
+  font-size: 35px;
+  
+  
+}
+
+.iconos a{
+  color: #e6a709;
+}
+.iconos a:hover{
+  color:white;
+}
+
+/*documentales*/
+
+.poster-1{
+  margin-top: 20px;
+  
+
+}
+
+.poster-2{
+  margin-top: 50px;
+  
+
+}
+.poster-3{
+  margin-top: 50px;
+  
+
+}
+/*documentales*/
+
+.texto-1{
+  margin-top: 20px;
+  color: white;
+  font-size: medium;
+ 
+  
+}
+
+.texto-2{
+  color: white;
+  font-size: medium;
+}
+.texto-3{
+  color: white;
+  font-size: medium;
+  margin-top: 20px;
+}
+
+/*cortometrajes*/
+
+.texto-4{
+  color: white;
+  font-size: medium;
+}
+.texto-5{
+  color: white;
+  font-size: medium;
+}
+
+/*largometrajes*/
+.texto-6{
+  color: white;
+  font-size: medium;
+}
+.texto-7{
+  color: white;
+  font-size: medium;
+}
+.texto-8{
+  color: white;
+  font-size: medium;
+}
+.texto-9{
+  color: white;
+  font-size: medium;
+}
